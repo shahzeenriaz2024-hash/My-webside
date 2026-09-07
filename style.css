@@ -1,0 +1,79 @@
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: arial;
+    color: #164d35;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 8%;
+    background: #eef8f0;
+}
+.hero h1{
+    font-size: 35px;
+    margin: 15px 0;
+}
+.hero img{
+    width: 45%;
+    border-radius: 10px;
+}
+button{
+    background: green;
+    color: white;
+    border: 0;
+    padding: 12px 25px ;
+    border-radius: 20px;
+}
+section{
+    padding: 50px 8%;
+}
+.tractor{
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.eligibility{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.eligibility img{
+    width: 45%;
+    border-radius: 10px;
+}
+.balloting{
+    text-align: center;
+    background: #eef8f0;
+}
+footer{
+    background: #064d32;
+    color: white;
+    padding: 40px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-height: 300px;
+    width: 50%;
+    object-fit: cover;
+}
+
+
